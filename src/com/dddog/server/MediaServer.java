@@ -1,4 +1,4 @@
-package cn.edu.xmu.zgy.server;
+package com.dddog.server;
 
 import java.io.IOException;
 import java.io.OutputStream;
@@ -8,8 +8,8 @@ import java.net.Socket;
 import java.util.ArrayList;
 import java.util.LinkedList;
 
-import cn.edu.xmu.zgy.config.CommonConfig;
-import cn.edu.xmu.zgy.packet.FramePacket;
+import com.dddog.config.CommonConfig;
+import com.dddog.packet.FramePacket;
 
 //blog.csdn.net/zgyulongfei
 //Email: zgyulongfei@gmail.com
@@ -79,6 +79,10 @@ public abstract class MediaServer {
 		mPacketList.addLast(packet);
 	}
 
+	/**
+	 * 获取缓存中第一个帧数据
+	 * @return
+	 */
 	public byte[] takeAwayFirstFrame() {
 		FramePacket packet = takeAwayFirstPacket();
 		if (packet == null) {

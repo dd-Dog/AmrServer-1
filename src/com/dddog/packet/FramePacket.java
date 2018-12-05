@@ -1,4 +1,4 @@
-package cn.edu.xmu.zgy.packet;
+package com.dddog.packet;
 
 //blog.csdn.net/zgyulongfei
 //Email: zgyulongfei@gmail.com

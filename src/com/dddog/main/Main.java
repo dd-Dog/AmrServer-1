@@ -1,4 +1,4 @@
-package cn.edu.xmu.zgy.main;
+package com.dddog.main;
 
 import javax.swing.JFrame;
 

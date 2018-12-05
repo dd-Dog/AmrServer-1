@@ -1,4 +1,4 @@
-package cn.edu.xmu.zgy.main;
+package com.dddog.main;
 
 import java.awt.BorderLayout;
 import java.awt.Dimension;
@@ -14,7 +14,7 @@ import javax.swing.JTextArea;
 import javax.swing.ScrollPaneConstants;
 import javax.swing.SwingUtilities;
 
-import cn.edu.xmu.zgy.server.AmrServer;
+import com.dddog.server.AmrServer;
 
 //blog.csdn.net/zgyulongfei
 //Email: zgyulongfei@gmail.com

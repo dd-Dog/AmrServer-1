@@ -1,12 +1,12 @@
-package cn.edu.xmu.zgy.server;
+package com.dddog.server;
 
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-import cn.edu.xmu.zgy.config.CommonConfig;
-import cn.edu.xmu.zgy.packet.FramePacket;
+import com.dddog.config.CommonConfig;
+import com.dddog.packet.FramePacket;
 
 //blog.csdn.net/zgyulongfei
 //Email: zgyulongfei@gmail.com

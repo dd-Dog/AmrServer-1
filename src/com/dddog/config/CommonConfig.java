@@ -1,4 +1,4 @@
-package cn.edu.xmu.zgy.config;
+package com.dddog.config;
 
 //blog.csdn.net/zgyulongfei
 //Email: zgyulongfei@gmail.com
